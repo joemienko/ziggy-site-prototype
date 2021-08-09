@@ -41,13 +41,15 @@ Check the Gatsby Starter [here](https://www.gatsbyjs.org/starters/timrodz/gatsby
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+0.  **Install Gatsby.**
 
-    Use the [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/) to create a new site, specifying this starter.
+    [See these instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/)
+
+1.  **Clone the Repo.**
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/timrodz/gatsby-starter-instagram-baseweb
+    git clone https://github.com/joemienko/ziggy-site-prototype.git
     ```
     
     **Note**: You can change `my-default-starter` to whatever name you prefer.
@@ -57,7 +59,7 @@ Check the Gatsby Starter [here](https://www.gatsbyjs.org/starters/timrodz/gatsby
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
+    cd ziggy-site-prototype/
     gatsby develop
     ```
 
@@ -67,7 +69,7 @@ Check the Gatsby Starter [here](https://www.gatsbyjs.org/starters/timrodz/gatsby
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `ziggy-site-prototype` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ### Required setup
 
@@ -77,7 +79,7 @@ In order to start showing posts from the instagram profile of your choice, you m
 
 This is the main configuration file for your app. It's in charge of specifying the settings of `gatsby-config.js` (See in section below) as well as the **SEO** of your website.
 
-- **social.instagram**: tells the Instagram API the username to get posts from. If the url is `https://www.instagram.com/natgeotravel/`, the username will be `natgeotravel`.
+- **social.instagram**: tells the Instagram API the username to get posts from. If the url is `https://www.instagram.com/hardeasy.pokes/`, the username will be `hardeasy.pokes`.
 - **googleAnalyticsId**: If you don't know how to find your id, please see [this post](https://support.google.com/analytics/answer/1008080?hl=en).
 
 **Note**: If you change certain variables, you might have to restart your app by interrupting the process and re-running `gatsby develop`.
@@ -85,33 +87,33 @@ This is the main configuration file for your app. It's in charge of specifying t
 ```js
 module.exports = {
   // Name of your site. Can be the name of a brand, or your personal name.
-  title: 'Gatsby Starter',
+  title: 'Hard Easy Pokes',
   // What's the purpose of this website? What can we expect from it?
   description:
-    `A portfolio based on your latest Instagram posts, implemented with Uber's Base Web Design System.`,
+    `The portfolio of Ziggy Mienko.`,
   // Your legal name.
-  legalName: 'Gatsby Starter',
+  legalName: 'Hard Easy Pokes',
   // URL to this website. If you bought `www.domain.com`, then it will be `www.domain.com`.
-  url: 'https://www.robonomy.com',
+  url: 'https://www.hardeasypokes.com',
   // Favicon that will display on browsers.
   logo: 'static/images/favicon.png',
   // Who made this website?
-  author: 'Juan Alejandro Morais',
+  author: 'John Anthony Mienko',
   // What's the website of the author?
-  authorUrl: 'https://www.timrodz.com',
+  authorUrl: 'https://github.com/um-bel',
   // Your social media presence, in the form of usernames.
   social: {
     // tells the Instagram API the username to get posts from. 
-    // If the url is `https://www.instagram.com/natgeotravel`, your username is `natgeotravel`.
-    instagram: 'natgeotravel', 
+    // If the url is `https://www.instagram.com/hardeasy.pokes`, your username is `hardeasy.pokes`.
+    instagram: 'hardeasy.pokes', 
     // Optional
-    twitter: '@NatGeoTravel',
+    // twitter: '@hardeasypokes',
   },
   socialLinks: {
     // Complete URL verison of `social.instagram`.
-    instagram: 'https://www.instagram.com/natgeotravel',
+    instagram: 'https://www.instagram.com/hardeasy.pokes',
     // Optional
-    twitter: 'https://twitter.com/NatGeoTravel',
+    // twitter: 'https://twitter.com/hardeasypokes',
   },
   // If applicable, your Google Analytics crawl ID.
   googleAnalyticsId: 'UA-XXXXXXXX-X',
@@ -120,16 +122,16 @@ module.exports = {
   backgroundColor: '#fff',
   // No more information than City + Country due to privacy concerns.
   address: {
-    city: 'City',
-    country: 'Country',
+    city: 'Tacoma, WA',
+    country: 'USA',
   },
   // Basic contact details.
   contact: {
     // Email address to contact you.
-    email: 'timrodz@icloud.com',
+    email: 'mienkone@gmail.com',
   },
   // When was this website created?
-  foundingDate: '2020',
+  foundingDate: '2022',
 };
 ```
 

@@ -17,7 +17,7 @@ module.exports = {
   // Your social media presence, in the form of usernames.
   social: {
     // tells the Instagram API the username to get posts from. 
-    // If the url is `https://www.instagram.com/natgeotravel`, your username is `natgeotravel`.
+    // If the url is `https://www.instagram.com/hardeasy.pokes`, your username is `hardeasy.pokes`.
     instagram: 'hardeasy.pokes', 
     // Optional
     // twitter: '@hardeasypokes',
