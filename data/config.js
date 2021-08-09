@@ -1,32 +1,32 @@
 module.exports = {
   // Name of your site. Can be the name of a brand, or your personal name.
-  title: 'Gatsby Starter',
+  title: 'Hard Easy Pokes',
   // What's the purpose of this website? What can we expect from it?
   description:
-    `A portfolio based on your latest Instagram posts, implemented with Uber's Base Web Design System.`,
+    `The portfolio of Ziggy Mienko.`,
   // Your legal name.
-  legalName: 'Gatsby Starter',
+  legalName: 'Hard Easy Pokes',
   // URL to this website. If you bought `www.domain.com`, then it will be `www.domain.com`.
-  url: 'https://www.robonomy.com',
+  url: 'https://www.hardeasypokes.com',
   // Favicon that will display on browsers.
   logo: 'static/images/favicon.png',
   // Who made this website?
-  author: 'Juan Alejandro Morais',
+  author: 'John Anthony Mienko',
   // What's the website of the author?
-  authorUrl: 'https://www.timrodz.com',
+  authorUrl: 'https://github.com/um-bel',
   // Your social media presence, in the form of usernames.
   social: {
     // tells the Instagram API the username to get posts from. 
     // If the url is `https://www.instagram.com/natgeotravel`, your username is `natgeotravel`.
-    instagram: 'natgeotravel', 
+    instagram: 'hardeasy.pokes', 
     // Optional
-    twitter: '@NatGeoTravel',
+    // twitter: '@hardeasypokes',
   },
   socialLinks: {
     // Complete URL verison of `social.instagram`.
-    instagram: 'https://www.instagram.com/natgeotravel',
+    instagram: 'https://www.instagram.com/hardeasy.pokes',
     // Optional
-    twitter: 'https://twitter.com/NatGeoTravel',
+    // twitter: 'https://twitter.com/hardeasypokes',
   },
   // If applicable, your Google Analytics crawl ID.
   googleAnalyticsId: 'UA-XXXXXXXX-X',
@@ -35,14 +35,14 @@ module.exports = {
   backgroundColor: '#fff',
   // No more information than City + Country due to privacy concerns.
   address: {
-    city: 'City',
-    country: 'Country',
+    city: 'Tacoma, WA',
+    country: 'USA',
   },
   // Basic contact details.
   contact: {
     // Email address to contact you.
-    email: 'timrodz@icloud.com',
+    email: 'mienkone@gmail.com',
   },
   // When was this website created?
-  foundingDate: '2020',
+  foundingDate: '2022',
 };
