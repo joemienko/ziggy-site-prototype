@@ -1,4 +1,4 @@
-import { Button } from 'baseui/button';
+// import { Button } from 'baseui/button';
 import {
   ALIGN,
   HeaderNavigation,
@@ -33,9 +33,7 @@ const Header = ({ siteTitle }) => (
         </SocialLink>
       </StyledNavigationItem>
       <StyledNavigationItem>
-        <Link href={`mailto:${config.contact.email}`}>
-          <Button>Let's talk</Button>
-        </Link>
+          <Link href="/schedule/">Schedule</Link>
       </StyledNavigationItem>
     </StyledNavigationList>
   </HeaderNavigation>
