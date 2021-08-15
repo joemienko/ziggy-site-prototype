@@ -1,195 +1,70 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Instagram & Base Web Gatsby Starter
-</h1>
+# Getting Started with Create React App
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7ab85d3c-47b7-45e1-91ff-497a211ba390/deploy-status)](https://app.netlify.com/sites/gatsby-starter-instagram-baseweb/deploys)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A portfolio based on your latest Instagram posts, implemented with Uber's [Base Web](https://eng.uber.com/introducing-base-web/) design system. It features out-of-the-box responsive layouts, easy-to-implement components and CSS-in-JS styling.
+## Available Scripts
 
-Check the Gatsby Starter [here](https://www.gatsbyjs.org/starters/timrodz/gatsby-starter-instagram-baseweb/).
+In the project directory, you can run:
 
-## 💫 Deploy
+### `npm start`
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/timrodz/gatsby-starter-instagram-baseweb)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/timrodz/gatsby-starter-instagram-baseweb)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-<img alt="Desktop/Tablet/Phone View" src="https://i.imgur.com/mAi2AXB.jpg" width="1000" />
-<img alt="Desktop View" src="https://dev-to-uploads.s3.amazonaws.com/i/quxifu4n3h9qistw2tr9.jpg" width="1000" />
+### `npm test`
 
-## 🎢 Features
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Plug & Play configuration — All you need is an Instagram username!
-- Lightweight & Minimalist page structure. Let your work show itself.
-- Fully responsive design: Mobile, Tablet & Desktop supported.
-- Continuous deployment via [Netlify](https://www.netlify.com/) or [Zeit](https://zeit.co/).
-- Functional components so you can take advantage of [React Hooks](https://www.netlify.com/).
-- [Google Analytics](https://analytics.google.com/analytics/web/) ready!
+### `npm run build`
 
-### Libraries & Plugins
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
--   **Styling**: [Baseweb](https://baseweb.design/).
--   **Linting**: [ESLint](https://eslint.org/).
--   **Gatsby Plugins**:
-    -   [Instagram](https://www.gatsbyjs.org/packages/gatsby-source-instagram/).
-    -   [Styletron](gatsby-plugin-styletron).
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🚀 Quick start
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-0.  **Install Gatsby.**
+### `npm run eject`
 
-    [See these instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-1.  **Clone the Repo.**
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-    ```shell
-    # create a new Gatsby site using the default starter
-    git clone https://github.com/joemienko/ziggy-site-prototype.git
-    ```
-    
-    **Note**: You can change `my-default-starter` to whatever name you prefer.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-2.  **Start developing.**
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-    Navigate into your new site’s directory and start it up.
+## Learn More
 
-    ```shell
-    cd ziggy-site-prototype/
-    gatsby develop
-    ```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-3.  **Open the source code and start editing!**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-    Your site is now running at `http://localhost:8000`!
+### Code Splitting
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-    Open the `ziggy-site-prototype` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+### Analyzing the Bundle Size
 
-### Required setup
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-In order to start showing posts from the instagram profile of your choice, you must do the following steps:
+### Making a Progressive Web App
 
-#### `data/config.js`
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-This is the main configuration file for your app. It's in charge of specifying the settings of `gatsby-config.js` (See in section below) as well as the **SEO** of your website.
+### Advanced Configuration
 
-- **social.instagram**: tells the Instagram API the username to get posts from. If the url is `https://www.instagram.com/hardeasy.pokes/`, the username will be `hardeasy.pokes`.
-- **googleAnalyticsId**: If you don't know how to find your id, please see [this post](https://support.google.com/analytics/answer/1008080?hl=en).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-**Note**: If you change certain variables, you might have to restart your app by interrupting the process and re-running `gatsby develop`.
+### Deployment
 
-```js
-module.exports = {
-  // Name of your site. Can be the name of a brand, or your personal name.
-  title: 'Hard Easy Pokes',
-  // What's the purpose of this website? What can we expect from it?
-  description:
-    `The portfolio of Ziggy Mienko.`,
-  // Your legal name.
-  legalName: 'Hard Easy Pokes',
-  // URL to this website. If you bought `www.domain.com`, then it will be `www.domain.com`.
-  url: 'https://www.hardeasypokes.com',
-  // Favicon that will display on browsers.
-  logo: 'static/images/favicon.png',
-  // Who made this website?
-  author: 'John Anthony Mienko',
-  // What's the website of the author?
-  authorUrl: 'https://github.com/um-bel',
-  // Your social media presence, in the form of usernames.
-  social: {
-    // tells the Instagram API the username to get posts from. 
-    // If the url is `https://www.instagram.com/hardeasy.pokes`, your username is `hardeasy.pokes`.
-    instagram: 'hardeasy.pokes', 
-    // Optional
-    // twitter: '@hardeasypokes',
-  },
-  socialLinks: {
-    // Complete URL verison of `social.instagram`.
-    instagram: 'https://www.instagram.com/hardeasy.pokes',
-    // Optional
-    // twitter: 'https://twitter.com/hardeasypokes',
-  },
-  // If applicable, your Google Analytics crawl ID.
-  googleAnalyticsId: 'UA-XXXXXXXX-X',
-  // Colours that represent your website.
-  themeColor: '#000',
-  backgroundColor: '#fff',
-  // No more information than City + Country due to privacy concerns.
-  address: {
-    city: 'Tacoma, WA',
-    country: 'USA',
-  },
-  // Basic contact details.
-  contact: {
-    // Email address to contact you.
-    email: 'mienkone@gmail.com',
-  },
-  // When was this website created?
-  foundingDate: '2022',
-};
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## 🧐 What's inside?
+### `npm run build` fails to minify
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
-
-    .
-    ├── node_modules
-    ├── src
-    │   ├── components
-    |   │   ├── common
-    |   │   └── theme
-    │   └── pages
-    ├── data
-    │   └── config
-    ├── static
-    │   └── images
-    ├── .gitignore
-    ├── .prettierignore
-    ├── .prettierrc
-    ├── .eslintrc.js
-    ├── gatsby-config.js
-    ├── LICENSE
-    ├── package.json
-    ├── yarn.lock
-    └── README.md
-
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
-
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-
-3.  **`/data`**: This folder will contain all of the code related to website data structures. `config.js` contains your personal information, and it will be populated for SEO.
-
-4.  **`/static`**: This directory will contain all assets i.e. images. Read how to [use the static folder](https://www.gatsbyjs.org/docs/static-folder/) for more information.
-
-5.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-
-6.  **`.prettierignore`**: Tells our `.prettierrc` file to ignore certain folders and/or files.
-
-7.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
-
-8.  **`.eslintrc.js`**: This is a configuration file for [ESLint](https://eslint.org/docs/user-guide/configuring). ESLint is a tool to help lint and enforce rules on your code.
-
-9.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
-
-10. **`LICENSE`**: Gatsby, and this starter, are licensed under the MIT license.
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`yarn.lock`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-13. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
--   **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
--   **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
