@@ -1,11 +1,11 @@
 import React from "react"; 
-import './App.css';
-import Navbar from "./components/Navbar";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"; 
-import Home from "./components/pages/Home" 
-import Gallery from "./components/pages/Gallery"
-import Schedule from "./components/pages/Schedule"
-import SignUp from "./components/pages/SignUp"
+import './App.css';
+import Navbar from "@components/layout/Navigation/Navbar/Navbar";
+import Home from "@views/Home/Home" 
+import Gallery from "@views/Gallery/Gallery"
+import Schedule from "@views/Schedule/Schedule"
+import SignUp from "@views/SignUp/SignUp"
 
 function App() {
   return (
