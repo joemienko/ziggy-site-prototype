@@ -13,6 +13,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn-large"
+          to="/sign-up"
         >
           REGISTER
         </Button>
@@ -20,6 +21,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn-large"
+          to="/video"
         >
           ABOUT US <i className="far 
                 fa-play-circle" />
