@@ -2,14 +2,20 @@
 
 import images from '@assets/images/images'; 
 
-function imageGallery(images) { 
+function imageGallery(images) {
     let html = ''
 
     images.forEach(function (image) {
-        html += `<img src="${image}"/>`
+        html += `<img className="image" src="${image}"/>`
     }); 
 
-    html = `<div id="galleryWrapper2">${html}</div>`
+
+    html = `
+    <div className="images__wrapper">
+        ${html}
+    </div>
+    `; 
+
     return html; 
 }
 
