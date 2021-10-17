@@ -1,12 +1,16 @@
 import React from "react";
-import "react-ig-feed/dist/index.css";
-import {imageGallery} from "../../components/layout/imageGallery/imageGallery"
+import imageGallery from "@components/layout/imageGallery/imageGallery"
 
-export default function Gallery() {
+function Gallery() {
+
   return (
-    <div className="cards">
-      <h1>Some h1 input here</h1>
-        <imageGallery/>
+    <div className="galleryWrapper0">
+      <h1>Tattoos That Have Already Been Preformed</h1>
+      <div className="galleryWrapper1" dangerouslySetInnerHTML={{__html: imageGallery}}>
+      </div>
     </div>
+    // this might be bad later on because of cross site scripting
   );
 }
+
+export default Gallery; 
