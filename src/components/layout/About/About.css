@@ -1,0 +1,8 @@
+.about {
+    padding: 4rem; 
+    background-color:#242424; 
+}
+
+.about > h1 {
+    color: salmon
+}
