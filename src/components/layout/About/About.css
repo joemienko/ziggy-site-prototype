@@ -1,8 +1,19 @@
 .about {
-    padding: 4rem; 
+    padding: 2rem; 
+    padding-bottom: 3rem; 
     background-color:#242424; 
+    padding-left: 5rem; 
+    align-items: center;
 }
 
 .about > h1 {
     color: salmon
+}
+
+.about .bio {
+    text-align: center;
+    font-size:18px; 
+    height:350px;
+    width:400;
+    color: salmon; 
 }
