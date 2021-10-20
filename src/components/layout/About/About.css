@@ -13,7 +13,13 @@
 .about .bio {
     text-align: center;
     font-size:18px; 
-    height:350px;
     width:400;
     color: salmon; 
+}
+
+.about .bio-help {
+    text-align: center;
+    font-size:18px; 
+    width:400;
+    color: lime; 
 }
