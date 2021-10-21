@@ -2,24 +2,19 @@
     padding: 2rem; 
     padding-bottom: 3rem; 
     background-color:#242424; 
-    padding-left: 5rem; 
-    align-items: center;
 }
 
 .about > h1 {
     color: salmon
 }
 
-.about .bio {
-    text-align: center;
+.bio {
     font-size:18px; 
-    width:400;
+    width: 550px;
     color: salmon; 
 }
 
-.about .bio-help {
-    text-align: center;
-    font-size:18px; 
-    width:400;
-    color: lime; 
+.contact-info {
+    color: #fff; 
+    padding-top: 2rem; 
 }
